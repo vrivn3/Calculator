@@ -16,26 +16,31 @@ int main(){
     switch (operand)
     {
     case '+':
-        printf("You have chose the Sum");
-        printf("%.1lf + %.1lf = %.1lf", num1, num2, num1 + num2);
+        printf("You have chose the Sum ");
+        printf("\n");
+        printf("%.1lf + %.1lf = %.1lf ", num1, num2, num1 + num2);
         break;
 
     case '-':
-        printf("You have chose the Substraction");
-        printf("%.1lf - %.1lf = %.1lf", num1, num2, num1 - num2);
+        printf("You have chose the Substraction ");
+        printf("\n");
+        printf("%.1lf - %.1lf = %.1lf ", num1, num2, num1 - num2);
         break;
 
     case '*':
-        printf("You have chose the Multiplication");
-        printf("%.1lf * %.1lf = %.1lf", num1, num2, num1 * num2);
+        printf("You have chose the Multiplication ");
+        printf("\n");
+        printf("%.1lf * %.1lf = %.1lf ", num1, num2, num1 * num2);
         break;    
 
     case '/':
         printf("You have chose the Division");
-        printf("%.1lf / %.1lf = %.1lf", num1, num2, num1 / num2);
+        printf("\n");
+        printf("%.1lf / %.1lf = %.1lf ", num1, num2, num1 / num2);
         break;    
 
     default:
+        printf("\n");
         printf("Please enter a valid operand between(+, -, *, or /) ");
     }
 
